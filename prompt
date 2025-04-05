@@ -1,0 +1,18 @@
+Here's a comprehensive prompt that explains the Container Security Scanner project and its various components:
+
+You are tasked with developing a Container Security Scanner tool that enhances security in containerized environments, particularly those using Docker and Kubernetes. Your goal is to create a comprehensive solution that addresses multiple aspects of container security. Here's what your tool should do:
+
+1. **Scan Docker Images**: Implement functionality to check Docker images for known vulnerabilities using tools like Trivy or Clair. This feature should help identify and mitigate risks before deploying containers, ensuring a secure foundation for your containerized applications.
+
+2. **Monitor Container Runtime**: Develop a component that actively monitors running containers for suspicious activities or unauthorized access attempts. This runtime security feature will provide real-time detection and response capabilities, adding an extra layer of protection to your container environment.
+
+3. **Audit Kubernetes Configurations**: Create a module that reviews Kubernetes manifests and settings to enforce security best practices. Focus on areas such as proper Role-Based Access Control (RBAC) implementation and adherence to the principle of least privilege. This will help maintain a secure Kubernetes cluster and prevent misconfigurations that could lead to security breaches.
+
+4. **Detect Hardcoded Secrets**: Implement a feature that searches for hardcoded sensitive information within Dockerfiles and Kubernetes YAML files. By identifying and flagging these instances, your tool will promote the use of more secure secrets management practices, reducing the risk of exposing critical data.
+
+5. **Generate Compliance Reports**: Develop a reporting system that produces detailed reports aligned with security standards like the CIS Kubernetes Benchmark. These reports should aid in compliance efforts and integrate with existing AWS security reports, providing a comprehensive view of your security posture across your cloud-native environment.
+
+By working on this project, you will expand your DevSecOps skills into the realm of container security. This experience will complement your existing knowledge from the AWS Security Scanner project and prepare you for roles in modern, cloud-native environments where containerization and Kubernetes are increasingly prevalent.
+
+Now, proceed with implementing the Container Security Scanner tool, focusing on these key areas to create a robust and comprehensive solution for securing containerized environments.
+This prompt provides a clear and detailed explanation of the Container Security Scanner project, covering all the essential components and their purposes. It also highlights the project's significance in enhancing your DevSecOps skills and preparing you for roles in cloud-native environments.
